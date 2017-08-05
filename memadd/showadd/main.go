@@ -6,8 +6,8 @@ func main() {
 
 	a := 43
 
-	fmt.Println("a - ", a)
-	fmt.Println("a's Hex  address \n ", &a)
-	fmt.Println("a's dec  address")
+	fmt.Println(" value of 'a' = ", a)
+	fmt.Println(" Hex  address of 'a' = \n ", &a)
+	fmt.Println(" dec  address of 'a' = ")
 	fmt.Printf("  %d", &a)
 }
