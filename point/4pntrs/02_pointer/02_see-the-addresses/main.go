@@ -26,7 +26,7 @@ func main() {
 	fmt.Println("'func main' addr of 'y':\n",&y)
 	fmt.Println("func Main' value of 'y' locally:\n",y)
 	zero2(&y)
-	fmt.Println("'func main' addr post zero2(&2) of'y':\n",&y)
+	fmt.Println("'func main' addr post zero2(&y) of'y':\n",&y)
 	fmt.Println("'func main' val 'y' post 'zero2(&y)' call:\n",y)
 
 }
