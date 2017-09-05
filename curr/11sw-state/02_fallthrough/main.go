@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 	switch "Marcus" {
-	case "Tim":
+	case "tim":
 		fmt.Println("Wassup Tim")
 	case "Jenny":
 		fmt.Println("Wassup Jenny")
